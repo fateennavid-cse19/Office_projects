@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia|Trirong");
+
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: "Sofia", sans-serif;
+    background: rgba(188, 189, 240, 1);
+    color: rgba(16, 42, 66, 1);
+    line-height: 1.5;
+    font-size: 0.075rem;
+}
+
+h3{
+    font-size: 1.25rem;
+    color:rgba(16, 42, 66, 1);
+    line-height: 1.25;
+    margin: 0.75rem 0;
+    text-align: center;
+}
+
+.loren-form{
+
+    text-transform: capitalize;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+
+    font-family: "Trirong",sans-serif;
+    font-size: 0.75rem;
+    color:rgba(16, 42, 66, 1);
+
+
+}
+
+.para_amount_num{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 0.25rem 0.25rem;
+    width: 2.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0 0.25rem;
+    font-size: 1rem;
+}
+
+.btn{
+
+    font-family: "Trirong",sans-serif;
+    background: transparent;
+    color: #222;
+    display: inline-block;
+    font-weight: 700;
+    transition: all 0.3s linear;
+    border: 2px solid #000;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 00.25rem;
+    font-size: 0.75rem;
+    padding: 0.1rem;
+
+}
+
+.btn:hover{
+
+    background: rgba(16, 42, 66, 1);
+    color:white;
+
+}
+
+.result{
+
+    width: 88vw;
+    margin: 1rem auto;
+    font-family: "Trirong",sans-serif;
+    font-size: 0.75rem;
+}
+
+
+
+
+
