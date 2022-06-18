@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Grocery List</title>
+</head>
+<body>
+    
+    <link rel="stylesheet" href="grocery_list.css"></link>
+    <form>
+        <label for="item-input">Item</label>
+        <input type="text" id="item-input">
+        <label for="quantity-input">Quantity
+        <input type="number" id="quanity-input"> </label>
+        <button type="submit" id="submit-btn">Add</button>
+
+    </form>
+
+    <div id="lists">
+        <p class="list__label">Required items<span class="quantity" id="shopping-num"></span></p>
+        <ul id="shopping-list"></ul>
+        <p class="list__label">In cart<span class="quantity" id="bought-num"></span></p>
+        <ul id="bought-list"></ul>
+    </div>
+
+    <div class="push"></div>
+
+    <!-- jQuery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js'></script>
+    <!-- Lodash JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js'></script>
+    <!-- Backbone JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js'></script>
+    <script src="grocery_list.js"></script>
+    
+</body>
+</html>
